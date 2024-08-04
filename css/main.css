@@ -1,0 +1,107 @@
+header {
+  color: rgb(223, 239, 76);
+  background-color: rgb(209, 236, 110);
+  margin-top: 20px;
+  margin-bottom:20px;
+  padding: 20px;
+  }
+
+  footer {
+    color: rgb(223, 239, 76);
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 20px;
+    }
+
+  h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  p {
+    margin-left: 25px;
+    margin-right: 5px;
+    padding: 5px;
+    }
+
+  p2 {
+    color: red;  
+    margin-left: 25px;
+    margin-right: 5px;
+    padding: 5px;
+    }
+
+     
+/*<uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -5;
+}
+
+/* this is a CSS comment */
+/* ONLY THIS WAY*/
+
+.inter-600 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" -5;
+}
+
+.inter-700 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" -5;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+}
+
+#formContainer {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 300px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7ff285;
+}
